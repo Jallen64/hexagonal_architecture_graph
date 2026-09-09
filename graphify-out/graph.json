@@ -1,0 +1,592 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "configurable_receiver_collaboration",
+        "label": "Configurable Receiver Collaboration",
+        "nodes": [
+          "hexagonal_book_configurator",
+          "hexagonal_book_configurable_receiver",
+          "hexagonal_book_sender_owned_interface"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "hexagonal_book.pdf"
+      },
+      {
+        "id": "hexagonal_architecture_boundary_mechanisms",
+        "label": "Hexagonal Architecture Boundary Mechanisms",
+        "nodes": [
+          "hexagonal_book_ports",
+          "hexagonal_book_adapters",
+          "hexagonal_book_provided_required_interfaces",
+          "hexagonal_book_test_doubles"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "hexagonal_book.pdf"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Adapter Pattern",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": "http://www.w3sdesign.com/GoF_Design_Patterns_Reference0100.pdf",
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_adapter_pattern",
+      "community": 0,
+      "community_name": "Ports, Adapters, and Testing",
+      "norm_label": "adapter pattern"
+    },
+    {
+      "label": "Adapters",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_adapters",
+      "community": 0,
+      "community_name": "Ports, Adapters, and Testing",
+      "norm_label": "adapters"
+    },
+    {
+      "label": "Ports",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_ports",
+      "community": 0,
+      "community_name": "Ports, Adapters, and Testing",
+      "norm_label": "ports"
+    },
+    {
+      "label": "Ports & Adapters",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_ports_and_adapters",
+      "community": 0,
+      "community_name": "Ports, Adapters, and Testing",
+      "norm_label": "ports & adapters"
+    },
+    {
+      "label": "Primary and Secondary Actors",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_primary_secondary_actors",
+      "community": 0,
+      "community_name": "Ports, Adapters, and Testing",
+      "norm_label": "primary and secondary actors"
+    },
+    {
+      "label": "Test Doubles",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_test_doubles",
+      "community": 0,
+      "community_name": "Ports, Adapters, and Testing",
+      "norm_label": "test doubles"
+    },
+    {
+      "label": "Inside and Outside Layers",
+      "file_type": "rationale",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_inside_outside_layers",
+      "community": 0,
+      "community_name": "Ports, Adapters, and Testing",
+      "norm_label": "inside and outside layers"
+    },
+    {
+      "label": "Tests and Mocks First",
+      "file_type": "rationale",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_tests_and_mocks_first",
+      "community": 0,
+      "community_name": "Ports, Adapters, and Testing",
+      "norm_label": "tests and mocks first"
+    },
+    {
+      "label": "Anti-Corruption Layer",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_anti_corruption_layer",
+      "community": 1,
+      "community_name": "Layered Architecture Approaches",
+      "norm_label": "anti-corruption layer"
+    },
+    {
+      "label": "Clean Architecture",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_clean_architecture",
+      "community": 1,
+      "community_name": "Layered Architecture Approaches",
+      "norm_label": "clean architecture"
+    },
+    {
+      "label": "CQRS Architecture",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": "https://medium.com/design-microservices-architecture-with-patterns/cqrs-design-pattern-in-microservices-architectures-5d41e359768c",
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_cqrs",
+      "community": 1,
+      "community_name": "Layered Architecture Approaches",
+      "norm_label": "cqrs architecture"
+    },
+    {
+      "label": "Hexagonal Architecture",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_hexagonal_architecture",
+      "community": 1,
+      "community_name": "Layered Architecture Approaches",
+      "norm_label": "hexagonal architecture"
+    },
+    {
+      "label": "Onion Architecture",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": "https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/",
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_onion_architecture",
+      "community": 1,
+      "community_name": "Layered Architecture Approaches",
+      "norm_label": "onion architecture"
+    },
+    {
+      "label": "Hexagonal Architecture Explained",
+      "file_type": "document",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_hexagonal_architecture_explained",
+      "community": 1,
+      "community_name": "Layered Architecture Approaches",
+      "norm_label": "hexagonal architecture explained"
+    },
+    {
+      "label": "Configurable Receiver",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_configurable_receiver",
+      "community": 2,
+      "community_name": "Configurable Interaction Patterns",
+      "norm_label": "configurable receiver"
+    },
+    {
+      "label": "Configurator",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_configurator",
+      "community": 2,
+      "community_name": "Configurable Interaction Patterns",
+      "norm_label": "configurator"
+    },
+    {
+      "label": "Observer Pattern",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": "https://en.wikipedia.org/wiki/Observer_pattern",
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_observer_pattern",
+      "community": 2,
+      "community_name": "Configurable Interaction Patterns",
+      "norm_label": "observer pattern"
+    },
+    {
+      "label": "Strategy Pattern",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": "https://en.wikipedia.org/wiki/Strategy_pattern",
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_strategy_pattern",
+      "community": 2,
+      "community_name": "Configurable Interaction Patterns",
+      "norm_label": "strategy pattern"
+    },
+    {
+      "label": "Sender-Owned Interface",
+      "file_type": "rationale",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_sender_owned_interface",
+      "community": 2,
+      "community_name": "Configurable Interaction Patterns",
+      "norm_label": "sender-owned interface"
+    },
+    {
+      "label": "Provided and Required Interfaces",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_provided_required_interfaces",
+      "community": 3,
+      "community_name": "UML Component Interfaces",
+      "norm_label": "provided and required interfaces"
+    },
+    {
+      "label": "UML Component",
+      "file_type": "concept",
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Alistair Cockburn; Juan Manuel Garrido de Paz",
+      "contributor": null,
+      "id": "hexagonal_book_uml_component",
+      "community": 3,
+      "community_name": "UML Component Interfaces",
+      "norm_label": "uml component"
+    }
+  ],
+  "links": [
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_hexagonal_architecture_explained",
+      "target": "hexagonal_book_clean_architecture"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_hexagonal_architecture_explained",
+      "target": "hexagonal_book_cqrs"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_hexagonal_architecture_explained",
+      "target": "hexagonal_book_onion_architecture"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_ports_and_adapters",
+      "target": "hexagonal_book_adapter_pattern"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_ports_and_adapters",
+      "target": "hexagonal_book_adapters"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_ports_and_adapters",
+      "target": "hexagonal_book_ports"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_ports_and_adapters",
+      "target": "hexagonal_book_strategy_pattern"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_ports_and_adapters",
+      "target": "hexagonal_book_uml_component"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_primary_secondary_actors",
+      "target": "hexagonal_book_ports_and_adapters"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_test_doubles",
+      "target": "hexagonal_book_ports_and_adapters"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_uml_component",
+      "target": "hexagonal_book_provided_required_interfaces"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_configurator",
+      "target": "hexagonal_book_configurable_receiver"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_ports_and_adapters",
+      "target": "hexagonal_book_configurable_receiver"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_inside_outside_layers",
+      "target": "hexagonal_book_ports_and_adapters"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_sender_owned_interface",
+      "target": "hexagonal_book_configurable_receiver"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_tests_and_mocks_first",
+      "target": "hexagonal_book_ports_and_adapters"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_hexagonal_architecture_explained",
+      "target": "hexagonal_book_anti_corruption_layer"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_hexagonal_architecture_explained",
+      "target": "hexagonal_book_hexagonal_architecture"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_hexagonal_architecture_explained",
+      "target": "hexagonal_book_ports_and_adapters"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_observer_pattern",
+      "target": "hexagonal_book_configurable_receiver"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_strategy_pattern",
+      "target": "hexagonal_book_configurable_receiver"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_clean_architecture",
+      "target": "hexagonal_book_onion_architecture"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "hexagonal_book.pdf",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "hexagonal_book_ports_and_adapters",
+      "target": "hexagonal_book_hexagonal_architecture"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "configurable_receiver_collaboration",
+      "label": "Configurable Receiver Collaboration",
+      "nodes": [
+        "hexagonal_book_configurator",
+        "hexagonal_book_configurable_receiver",
+        "hexagonal_book_sender_owned_interface"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hexagonal_book.pdf"
+    },
+    {
+      "id": "hexagonal_architecture_boundary_mechanisms",
+      "label": "Hexagonal Architecture Boundary Mechanisms",
+      "nodes": [
+        "hexagonal_book_ports",
+        "hexagonal_book_adapters",
+        "hexagonal_book_provided_required_interfaces",
+        "hexagonal_book_test_doubles"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "hexagonal_book.pdf"
+    }
+  ]
+}
